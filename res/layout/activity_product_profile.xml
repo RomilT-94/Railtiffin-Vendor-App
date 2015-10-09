@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp" >
+        </android.support.v4.view.ViewPager>
+
+        <Button
+            android:id="@+id/bEditProductDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bAvailability"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="14dp"
+            android:text="Send Edit Request" />
+
+        <EditText
+            android:id="@+id/etProductPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/pager"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/bg_form_rounded"
+            android:ems="10"
+            android:text="Rs 200/-"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/bAvailability"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etProductPrice"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Availability" />
+
+        <EditText
+            android:id="@+id/etProductName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etProductPrice"
+            android:layout_alignLeft="@+id/pager"
+            android:layout_marginBottom="44dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_form_rounded"
+            android:ems="10"
+            android:text="Veg Thali"
+            android:textColor="@color/black" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/ibAddImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/pager"
+            android:layout_alignTop="@+id/pager"
+            
+            android:background="@color/yellow"
+            android:src="@drawable/ic_edit" />
+    </RelativeLayout>
+
+</ScrollView>

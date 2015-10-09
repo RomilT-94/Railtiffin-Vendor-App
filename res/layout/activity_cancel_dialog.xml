@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Order Query"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etReplyVendor"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Tell us why do you want to drop the order?"
+        android:textColor="@android:color/white" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bSendResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/etReplyVendor"
+        android:layout_below="@+id/etReplyVendor"
+        android:layout_marginTop="16dp"
+        android:text="Send Response to Us" />
+
+</RelativeLayout>

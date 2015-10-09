@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:text="Minimum Order Value"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/etMinValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_form_rounded"
+            android:ems="10"
+            android:hint="Rs 500/-"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:text="Minimum Delivery Notice"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/etMinNotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_form_rounded"
+            android:ems="10"
+            android:hint="3 hours"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+
+       <!--  <Button
+            android:id="@+id/bTimings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:text="Operation Hours"
+            android:textColor="@color/white" /> -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="3dp"
+            android:text="Restaurant Type"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/etRestType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_form_rounded"
+            android:ems="10"
+            android:hint="Veg"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+
+       <!--  <Button
+            android:id="@+id/bEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Edit" /> -->
+    </LinearLayout>
+
+</ScrollView>

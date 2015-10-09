@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cbItalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Italian" />
+
+    <CheckBox
+        android:id="@+id/cbChinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Chinese" />
+
+    <CheckBox
+        android:id="@+id/cbPunjabi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Punjabi" />
+
+    <CheckBox
+        android:id="@+id/cbSouth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="South Indian" />
+
+    <CheckBox
+        android:id="@+id/cbJain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Jain" />
+
+    <CheckBox
+        android:id="@+id/cbMexican"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Mexican" />
+
+    <CheckBox
+        android:id="@+id/cbMughlai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Mughlai" />
+
+    <Button
+        android:id="@+id/bSubmitSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Submit Cuisine Selection" />
+
+</LinearLayout>

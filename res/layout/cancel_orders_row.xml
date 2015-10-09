@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEEEEE"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvOrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Cancelled Order Number 1"
+        android:textColor="#040404"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/tvTrainDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvOrderNumber"
+        android:layout_alignTop="@+id/tvOrderNumber"
+        android:layout_marginTop="24dp"
+        android:text="12345/Rajdhani Express"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvDeliveryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTrainDetails"
+        android:layout_below="@+id/tvTrainDetails"
+        android:layout_marginTop="4dp"
+        android:text="Deliver at- 12:35"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:id="@+id/tvContactPersonDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDeliveryTime"
+        android:layout_below="@+id/tvDeliveryTime"
+        android:layout_marginTop="4dp"
+        android:text="Mr. XYZ / 9988776655"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/bOK"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvContactPersonDetails"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="OK" />
+
+</RelativeLayout>
